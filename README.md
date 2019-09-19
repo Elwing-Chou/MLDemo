@@ -24,3 +24,18 @@ def test():
     return print
 test()("hello")
 ```
+
+## Model使用方式是這樣
+
+```python
+Model(inputs=張量, outpus=張量)
+```
+
+```python
+# 回傳值是一個函式
+張量2 = Dense(256, activation="relu)(張量1)
+張量3 = Dense(10, activation="softmax")(張量2)
+mlp = Model(inputs=張量1, outputs=張量3)
+```
+
+
