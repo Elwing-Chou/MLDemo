@@ -40,7 +40,7 @@ mlp = Model(inputs=張量1, outputs=張量3)
 
 ## Lambda無名函式
 
-只要用一兩次, 裡面要做的事情又是一兩行就可以搞定的
+只要用一兩次, 裡面要做的事情又是一行就可以搞定的
 
 ```python
 def test(func):
