@@ -38,4 +38,18 @@ Model(inputs=張量, outpus=張量)
 mlp = Model(inputs=張量1, outputs=張量3)
 ```
 
+## Lambda無名函式
+
+只要用一兩次, 裡面要做的事情又是一兩行就可以搞定的
+
+```python
+def test(func):
+    print(func(3))
+def a(n):
+    return 2 * n
+# 這兩行是一模一樣的意思
+test(a)
+test(lambda n:2 * n)
+
+```
 
